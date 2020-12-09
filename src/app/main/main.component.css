@@ -1,4 +1,6 @@
 /* Main */
+
+/* Section1 */
 #main_banner {
     margin-top: -65px;
 	min-height: 100vh;
@@ -87,7 +89,6 @@ path {
 	}
 }
 
-
 .section-content .wrapper .branding {
     font-family: 'Poppins-Light';
     color: #fff;
@@ -95,4 +96,109 @@ path {
     font-size: 24px;
     letter-spacing: 2px;
 }
+/* End Section1 */
+
+
+/* Section2 */
+/* End Section2 */
+
+
+/* Section3 */
+#main_profile,
+#about_about {
+	text-align: right;
+	overflow: hidden;
+}
+#main_profile img[alt="bg"],
+#about_about img[alt="bg"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+  z-index: -1;
+}
+#about_about img[alt="bg"] {
+	width: 100%;
+	height: auto;
+	transform: translateY(-68%);
+}
+#main_profile .about-container,
+#about_about .about-container {
+	padding: 0;
+	text-align: left;
+	width: 80%;
+	background-color: #fff;
+  margin: 0 0 0 auto;
+	box-shadow: 0 2px 8px -3px rgba(0, 0, 0, 0.65);
+	overflow: hidden;
+}
+#about_about .about-container {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 50px;
+}
+#main_profile .about-container > .details > p.caption,
+#about_about .about-container > .details > p.caption {
+	font-family: "Montserrat-Light";
+	font-size: 14px;
+	letter-spacing: 0.7px;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+#main_profile .about-container > .details > p.title,
+#about_about .about-container > .details > p.title {
+	font-family: 'Homework';
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	line-height: 46px;
+	color: #f44336;
+}
+#main_profile .about-container > .details > p.desc,
+#about_about .about-container > .details > p.desc {
+	font-size: 14px;
+}
+#main_profile .about-container > .details > p.signature,
+#about_about .about-container > .details > p.signature {
+	font-family: Darloune;
+	font-size: 25px;
+	line-height: 30px;
+	color: #f44336;
+	text-align: right;
+}
+#main_profile .about-container > .details > p.signature > span,
+#about_about .about-container > .details > p.signature > span {
+	margin-right: 80px;
+}
+#main_profile .about-container > .details,
+#about_about .about-container > .details {
+	float: left;
+	width: 65%;
+	padding: 100px 30px;
+}
+#main_profile .about-container > .image,
+#about_about .about-container > .image {
+	position: relative;
+	float: left;
+	width: 35%;
+  text-align: right;
+}
+#main_profile .about-container > .image > img[alt="owner"],
+#about_about .about-container > .image > img[alt="owner"] {
+	width: 100%;
+  height: 100%;
+}
+#main_profile .about-container > .image > img[alt="side"],
+#about_about .about-container > .image > img[alt="side"] {
+	width: auto;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	user-select: none;
+}
+/* End Section3 */
+
+
 /* Main */

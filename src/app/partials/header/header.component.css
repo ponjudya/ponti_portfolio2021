@@ -32,6 +32,12 @@
 
 }
 
+.header-container .header-divider {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-container  .header-menu > a {
     position: relative;
 	font-family: "Poppins Light";

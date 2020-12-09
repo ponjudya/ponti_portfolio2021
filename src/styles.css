@@ -44,6 +44,10 @@ app-header {
   src: url('/assets/fonts/Poppins-Light.ttf');
 }
 
+@font-face {
+  font-family: 'Homework';
+  src: url('/assets/fonts/Homework.otf');
+}
 
 /* Fonts */
 
@@ -122,9 +126,11 @@ app-header {
 	display: inline-block;
 }
 .section-container .section-title > span {
-    position: absolute;
-    bottom: -25px;
-    right: 0;
+	position: absolute;
+    z-index: -1;
+    transform: translate(-50%);
+    left: 50%;
+    top: 0;
 }
 .section-container .title-line {
 	width: auto;
