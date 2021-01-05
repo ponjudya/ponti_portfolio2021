@@ -49,6 +49,16 @@ app-header {
   src: url('/assets/fonts/Homework.otf');
 }
 
+@font-face {
+  font-family: 'Xtreem-Medium';
+  src: url('/assets/fonts/XtreemMedium_PERSONAL_USE.ttf');
+}
+
+@font-face {
+  font-family: 'Xtreem';
+  src: url('/assets/fonts/XtreemFat_PERSONAL_USE.ttf');
+}
+
 /* Fonts */
 
 
@@ -119,9 +129,9 @@ app-header {
 .section-container .section-title {
     position: relative;
     font-family: 'Poppins-Light';
-	font-size: 40px;
+	font-size: 30px;
 	letter-spacing: 2px;
-	line-height: 48px;
+	line-height: 30px;
 	font-weight: 600;
 	display: inline-block;
 }
@@ -130,7 +140,7 @@ app-header {
     z-index: -1;
     transform: translate(-50%);
     left: 50%;
-    top: 0;
+    top: -15px;
 }
 .section-container .title-line {
 	width: auto;

@@ -100,14 +100,11 @@ path {
 
 
 /* Section2 */
-/* End Section2 */
-
-
-/* Section3 */
 #main_profile,
 #about_about {
 	text-align: right;
 	overflow: hidden;
+	padding-top: 60px;
 }
 #main_profile img[alt="bg"],
 #about_about img[alt="bg"] {
@@ -116,7 +113,8 @@ path {
 	left: 0;
 	width: auto;
 	height: 100%;
-  z-index: -1;
+	z-index: -1;
+	padding: 20px;
 }
 #about_about img[alt="bg"] {
 	width: 100%;
@@ -133,6 +131,13 @@ path {
 	box-shadow: 0 2px 8px -3px rgba(0, 0, 0, 0.65);
 	overflow: hidden;
 }
+
+
+#main_profile .section-title {
+	margin-right: 30px;
+    margin-bottom: 30px;
+}
+
 #about_about .about-container {
 	margin: 0 auto;
 	width: 70%;
@@ -141,7 +146,7 @@ path {
 #main_profile .about-container > .details > p.caption,
 #about_about .about-container > .details > p.caption {
 	font-family: "Montserrat-Light";
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing: 0.7px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -149,8 +154,8 @@ path {
 }
 #main_profile .about-container > .details > p.title,
 #about_about .about-container > .details > p.title {
-	font-family: 'Homework';
-	font-size: 30px;
+	font-family: 'Xtreem-Medium';
+	font-size: 50px;
 	letter-spacing: 1.5px;
 	line-height: 46px;
 	color: #f44336;
@@ -158,18 +163,20 @@ path {
 #main_profile .about-container > .details > p.desc,
 #about_about .about-container > .details > p.desc {
 	font-size: 14px;
+	font-family: "Poppins Light";
 }
 #main_profile .about-container > .details > p.signature,
 #about_about .about-container > .details > p.signature {
-	font-family: Darloune;
-	font-size: 25px;
+	font-family: 'Xtreem-Medium';
+	font-size: 45px;
 	line-height: 30px;
 	color: #f44336;
 	text-align: right;
+	letter-spacing: 3px;
 }
 #main_profile .about-container > .details > p.signature > span,
 #about_about .about-container > .details > p.signature > span {
-	margin-right: 80px;
+	/* margin-right: 80px; */
 }
 #main_profile .about-container > .details,
 #about_about .about-container > .details {
@@ -198,6 +205,11 @@ path {
 	left: 0;
 	user-select: none;
 }
+/* End Section2 */
+
+
+/* Section3 */
+
 /* End Section3 */
 
 

@@ -29,7 +29,14 @@
 	-webkit-align-items: center;
     align-items: center;
 	position: fixed !important;
+}
 
+.header-container .header-logo {
+	cursor: pointer;
+}
+
+.header-container .header-logo:hover {
+	transform: scale(1.1);
 }
 
 .header-container .header-divider {

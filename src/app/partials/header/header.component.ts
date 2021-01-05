@@ -25,4 +25,29 @@ export class HeaderComponent implements OnInit {
     }
   }
 
+  goToMain() {
+    let main = document.getElementById('main_banner');
+    main.scrollIntoView({ behavior: "smooth" });
+  }
+
+  goToAbout() {
+    let about = document.getElementById('main_profile');
+    about.scrollIntoView({ behavior: "smooth" });
+  }
+
+  goToSkills() {
+    let skills = document.getElementById('main_skills');
+    skills.scrollIntoView({ behavior: "smooth" });
+  }
+
+  goToProjects() {
+    let projects = document.getElementById('main_projects');
+    projects.scrollIntoView({ behavior: "smooth" });
+  }
+  
+  goToContact() {
+    let contact = document.getElementById('main_contact');
+    contact.scrollIntoView({ behavior: "smooth" });
+  }
+
 }
