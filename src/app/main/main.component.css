@@ -281,4 +281,67 @@ path {
 
 /* End Section3 */
 
+
+/* Section4 */
+
+#main_projects .projects-container {
+	width: 100%;
+	margin: 0 auto !important;
+	padding: 60px 0;
+}
+#main_projects .projects-container > div {
+	padding: 10px;
+}
+#main_projects .projects-container .projects-content {
+	position: relative;
+	padding: 10px;
+	border: 2px dashed #f44336;
+	background-color: #fff;
+}
+#main_projects .projects-container .projects-content img {
+	width: 100%;
+}
+#main_projects .projects-container .projects-content:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 10px -4px rgb(244 67 54);
+	transition: 300ms ease all;
+	transition: 300ms linear all;
+}
+#main_projects .projects-container .projects-content > a {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	font-family: Montserrat-Regular;
+	font-size: 12px;
+	letter-spacing: 0.6px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #FF4AFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+#main_projects .projects-container .projects-content > .details {
+	float: left;
+	width: 55%;
+	padding-right: 20px;
+	text-align: left;
+}
+#main_projects .projects-container .projects-content > .details > p {
+	font-family: Montserrat-Regular;
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+#main_projects .projects-container .projects-content > .details > p.title {
+	font-family: DoulosSILR;
+	font-size: 25px;
+	letter-spacing: 1.25px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+/* End Section4 */
+
 /* Main */
