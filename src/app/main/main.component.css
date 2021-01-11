@@ -19,7 +19,7 @@
 	height: 100%;
   	margin-top: 100px;
 	overflow: hidden;
-	background-image: url('/assets/images/Home/main_banner.jpg');
+	background-image: url('assets/images/Home/main_banner.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
