@@ -218,7 +218,8 @@ path {
 }
 
 #main_profile .instax {
-	background-image: url('/assets/images/Profile/dotted-line.png');
+	/* background-image: url('/assets/images/Profile/dotted-line.png'); */
+	background-image: url('https://ponjudya.github.io/ponti_portfolio2021/assets/images/Profile/dotted-line.png');
   	background-position: center;
 	padding-bottom: 30px;
 	background-repeat: no-repeat;
@@ -253,7 +254,7 @@ path {
     top: 0;
 	opacity: 0.50;
 	z-index: -2;
-	background-image: url('/assets/images/Skills/skills_bg.jpg');
+	background-image: url('https://ponjudya.github.io/ponti_portfolio2021/assets/images/Skills/skills_bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }

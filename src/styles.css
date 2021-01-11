@@ -41,7 +41,7 @@ app-header {
 
 @font-face {
   font-family: 'Poppins-Light';
-  src: url('/assets/fonts/Poppins-Light.ttf');
+  src: url('/assets/fonts/Poppinslight.ttf');
 }
 
 @font-face {
@@ -51,12 +51,12 @@ app-header {
 
 @font-face {
   font-family: 'Xtreem-Medium';
-  src: url('/assets/fonts/XtreemMedium_PERSONAL_USE.ttf');
+  src: url('/assets/fonts/XtreemMedium.ttf');
 }
 
 @font-face {
   font-family: 'Xtreem';
-  src: url('/assets/fonts/XtreemFat_PERSONAL_USE.ttf');
+  src: url('/assets/fonts/Xtreemfat.ttf');
 }
 
 /* Fonts */
