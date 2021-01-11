@@ -11,6 +11,10 @@ body {
     margin: 0 auto;
 }
 
+.w100 {
+	width: 100% !important;
+}
+
 app-header {
     position: fixed;
     top: 0;
